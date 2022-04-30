@@ -2,55 +2,104 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF -8">
+    <meta charset="UTF-8">
     <title> Photography </title>
     <meta content=" Elliott Victoria y Morabito Leonardo" name=" Authors">
     <meta content="Pagina sobre la fotografia y edicion" name=" Description">
     <meta content=" html, css, photography, ligtroom, camera" name="keywords">
-    <link rel="tablas.css" type="text/css" href="/css/tablas.css">
-
+    <link rel="index" type="text/css" href="/css/tablas.css">
 
 </head>
 <style>
+    #cabecera {
+        color: #ffffff;
+        text-align: center;
+        padding: 20px;
+        background: #000000;
+    }
+
     #contenedor {
         display: table;
-        border: 0 solid #ffffff;
-        width: 500px;
+        width: auto;
         text-align: center;
         margin: 0 auto;
+        padding: 90px;
     }
 
     #contenidos1, #contenidos2 {
         display: table-row;
     }
 
-    #OP1, #OP2, #OP3, #OP4 {
+    #OP1 {
+        font-size: 25px;
         display: table-cell;
-        border: 0 solid #ffffff;
+        border: 5px solid #ffffff;
         vertical-align: middle;
-        padding: 10px;
+        padding: 100px;
+        background: #660133;
+    }
+
+    #OP2 {
+        font-size: 25px;
+        display: table-cell;
+        border: 5px solid #ffffff;
+        vertical-align: middle;
+        padding: 100px;
+        background: #004c98;
+    }
+
+    #OP3 {
+        font-size: 25px;
+        display: table-cell;
+        border: 5px solid #ffffff;
+        vertical-align: middle;
+        padding: 100px;
+        background: #666666;
+    }
+
+    #OP4 {
+        font-size: 25px;
+        display: table-cell;
+        border: 5px solid #ffffff;
+        vertical-align: middle;
+        padding: 100px;
+        background: #006666;
+    }
+    #pie{
+        min-height: 70px;
+        text-align: center;
+        width: 100%;
+        position: relative;
+
+
     }
 </style>
 <body>
 <header>
-    <h1>CAPTURE WEB PHOTOS</h1>
+    <div id="cabecera">
+        <h1>CAPTURE WEB PHOTOS</h1>
+    </div>
+
 </header>
 
 <section>
     <div id="contenedor">
         <div id="contenidos1">
-            <div id="OP1"><a href="define_estilo.html">DEFINE TU ESTILO<br/></a>de fotografia</div>
-            <div id="OP2"><a href="tipo_camara.html">TIPOS DE CAMARA<br/></a>¿Que camara debo comprar?</div>
+            <div id="OP1"><a href="define_estilo.html" style="color: #ffffff">DEFINE TU ESTILO<br/>DE FOTOGRAFIA</a></div>
+            <div id="OP2"><a href="tipo_camara.html" style="color: #ffffff">TIPOS DE CAMARA<br/>¿QUE CAMARA DEBO COMPRAR?</a></div>
         </div>
         <div id="contenidos2">
-            <div id="OP3"><a href="instagram.html">FOTOGRAFOS DE PREFERENCIA<br/></a>en Instagram</div>
-            <div id="OP4"><a href="presets.html">PRESETS DE LIGHTROOM<br/></a>que marcan tendencia</div>
+            <div id="OP3"><a href="instagram.html" style="color: #ffffff">FOTOGRAFOS DE PREFERENCIA<br/>EN INSTAGRAM</a></div>
+            <div id="OP4"><a href="presets.html" style="color: #ffffff">PRESETS DE LIGHTROOM<br/>QUE MARCAM TEMDENCIA</a></div>
         </div>
     </div>
 </section>
 </body>
 <footer>
-    <p>Authors: Victoria Elliott & Leonardo Morabito</p>
-    <p>Copyright 2022. Todos los derechos reservados© </p>
+    <div id="pie">
+        <p>Authors: Victoria Elliott & Leonardo Morabito</p>
+        <p>Copyright 2022. Todos los derechos reservados© </p>
+    </div>
+
 </footer>
 </html>
