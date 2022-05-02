@@ -1,4 +1,4 @@
-.boton  {
+.boton {
     border: 1px solid #006666;
     padding: 10px;
     background-color: #006666;
@@ -7,4 +7,14 @@
     text-transform: uppercase;
     font-family: 'Helvetica', sans-serif;
     border-radius: 50px;
+}
+
+h1{}
+h2 {
+    padding: 0 50px 0;
+}
+
+p {
+    padding: 10px 10px;
+
 }
