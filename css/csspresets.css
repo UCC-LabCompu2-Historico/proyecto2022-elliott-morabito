@@ -7,13 +7,38 @@
     border-radius: 50px;
 }
 
-h1{
+.boton_2 {
+    border: 1px solid #006666;
+    padding: 10px;
+    background-color: #006666;
+    color: #ffffff;
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+
+    padding: 20px;
+    background: #006666;
+}
+
+h2 {
     text-align: center;
 }
+
 p {
+    text-align: center;
     padding: 10px 10px;
 
 }
+
+.centrar_presets {
+    display: block;
+    margin: 10px auto;
+}
+
 #pie {
     min-height: 70px;
     text-align: center;
