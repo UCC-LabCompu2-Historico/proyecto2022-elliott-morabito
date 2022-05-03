@@ -1,6 +1,7 @@
-body{
-    background: url("/images/fondo/tipo_camara/fondo.png");
+body {
+    background-image: url("/images/fondo/fondo.jpg");
 }
+
 .boton {
     border: 1px solid #004c98;
     padding: 10px;
@@ -14,7 +15,7 @@ h1 {
     color: #ffffff;
     text-align: center;
     padding: 20px;
-    background: #004c98;
+    background-color: #004c98;
 }
 
 h2 {
