@@ -3,8 +3,28 @@
     padding: 10px;
     background-color: #004c98;
     color: #ffffff;
-    text-decoration: none;
-    text-transform: uppercase;
     font-family: 'Helvetica', sans-serif;
     border-radius: 50px;
 }
+h1{
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    background: #004c98;
+}
+p{
+    padding: 10px 10px;
+}
+#pie {
+    min-height: 70px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+#form1{
+    padding: 20px;
+}
+#button_buscar{
+padding: 20px;
+}
+

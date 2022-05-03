@@ -3,18 +3,22 @@
     padding: 10px;
     background-color: #006666;
     color: #ffffff;
-    text-decoration: none;
-    text-transform: uppercase;
     font-family: 'Helvetica', sans-serif;
     border-radius: 50px;
 }
 
-h1{}
-h2 {
-    padding: 0 50px 0;
+h1{
+    text-align: center;
 }
-
 p {
     padding: 10px 10px;
+
+}
+#pie {
+    min-height: 70px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+
 
 }

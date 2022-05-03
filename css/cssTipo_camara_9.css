@@ -3,8 +3,6 @@
     padding: 10px;
     background-color: #004c98;
     color: #ffffff;
-    text-decoration: none;
-    text-transform: uppercase;
     font-family: 'Helvetica', sans-serif;
     border-radius: 50px;
 }
@@ -13,8 +11,14 @@
     padding: 10px;
     background-color: #004c98;
     color: #ffffff;
-    text-decoration: none;
-    text-transform: uppercase;
     font-family: 'Helvetica', sans-serif;
     border-radius: 50px;
+}
+#pie {
+    min-height: 70px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+
+
 }
