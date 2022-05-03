@@ -14,6 +14,17 @@
     font-family: 'Helvetica', sans-serif;
     border-radius: 50px;
 }
+h1{
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    background: #004c98;
+}
+.centrarimg7{
+
+    display:flex;
+    margin: auto;
+}
 #pie {
     min-height: 70px;
     text-align: center;
