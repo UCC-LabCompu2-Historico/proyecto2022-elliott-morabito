@@ -1,6 +1,6 @@
 # proyecto2022. ELLIOTT  VICTORIA & MORABITO.
 
-# Título del proyecto: “Capture Web Photos”
+## Título del proyecto: “Capture Web Photos”
 
 <u>Autores:</u> 
 - Victoria Elliott 2102175@ucc.edu.ar
@@ -8,9 +8,11 @@
 
 [Gh-pages] (https://ucc-labcompu2.github.io/proyecto2022-elliott-morabito/)
 
-Contenido: Información para principiantes que inician en la fotografía.
-Se definen tipos, estilos, herramientas de edición, fotógrafos
-de moda y recomendaciones para elegir una cámara.
+<u>Contenido:</u> 
+- Información para principiantes que inician en la fotografía.
+- Se definen tipos, estilos, herramientas de edición.
+- fotógrafosde moda y con muy buenos estilos en la plataforma instagram. 
+- recomendaciones para elegir una cámara con link de compra.
 
 Tecnologías usadas: 
 - HTML 
