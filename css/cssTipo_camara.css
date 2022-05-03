@@ -1,3 +1,6 @@
+body{
+    background-image: url("/images/fondo/fondo.jpg");
+}
 .boton {
     border: 1px solid #004c98;
     padding: 10px;
