@@ -26,10 +26,12 @@ h1 {
 
 h2 {
     text-align: center;
+    font-family: 'Lora', serif;
 }
 
 p {
     text-align: center;
+    font-family: 'Lora', serif;
     padding: 10px 10px;
 
 }
