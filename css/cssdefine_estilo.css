@@ -27,11 +27,13 @@ h1 {
 h2 {
     padding: 2em 3px 5px 5px;
     font-family: 'Lora', serif;
+    color: #ffffff;
 }
 
 p {
     font-family: 'Lora', serif;
     padding: 10px 10px;
+    color: #ffffff;
 
 }
 
@@ -40,4 +42,8 @@ p {
     text-align: center;
     width: 100%;
     position: relative;
+    color: #ffffff;
+}
+body{
+    background-image: url("../images/fondo/fondo8.jpg");
 }

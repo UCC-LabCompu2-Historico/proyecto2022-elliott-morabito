@@ -27,12 +27,14 @@ h1 {
 h2 {
     text-align: center;
     font-family: 'Lora', serif;
+    color: #ffffff;
 }
 
 p {
     text-align: center;
     font-family: 'Lora', serif;
     padding: 10px 10px;
+    color: #ffffff;
 
 }
 
@@ -46,4 +48,8 @@ p {
     text-align: center;
     width: 100%;
     position: relative;
+    color: #ffffff;
+}
+body{
+    background-image: url("../images/fondo/62357-camara.jpg");
 }

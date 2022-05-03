@@ -5,6 +5,10 @@
     background: #000000;
 }
 
+body{
+    background-image: url("../images/fondo/fondo5.jpg");
+}
+
 #contenedor {
     display: table;
     width: auto;
@@ -58,5 +62,6 @@
     text-align: center;
     width: 100%;
     position: relative;
+    color: #ffffff;
 
 }
