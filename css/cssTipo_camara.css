@@ -1,5 +1,6 @@
 body{
     background-image: url("../images/fondo/fondo.jpg");
+    background-size: cover;
 }
 .boton {
     border: 1px solid #004c98;

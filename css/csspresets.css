@@ -1,3 +1,7 @@
+body{
+    background-image: url("../images/fondo/62357-camara.jpg");
+    background-size: 1920px 1080px;
+}
 .boton {
     border: 1px solid #006666;
     padding: 10px;
@@ -49,7 +53,4 @@ p {
     width: 100%;
     position: relative;
     color: #ffffff;
-}
-body{
-    background-image: url("../images/fondo/62357-camara.jpg");
 }

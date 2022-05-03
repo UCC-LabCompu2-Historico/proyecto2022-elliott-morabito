@@ -1,3 +1,7 @@
+body{
+    background-image: url("../images/fondo/fondo8.jpg");
+    background-size:auto;
+}
 .boton {
     border: 1px solid #660233;
     padding: 10px;
@@ -43,7 +47,4 @@ p {
     width: 100%;
     position: relative;
     color: #ffffff;
-}
-body{
-    background-image: url("../images/fondo/fondo8.jpg");
 }
