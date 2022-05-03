@@ -1,3 +1,6 @@
+body{
+    background: url("/images/fondo/tipo_camara/fondo.png");
+}
 .boton {
     border: 1px solid #004c98;
     padding: 10px;
@@ -20,7 +23,6 @@ h2 {
 }
 
 label {
-    padding: 2em 3px 5px 5px;
     font-family: 'Lora', serif;
 }
 

@@ -6,7 +6,8 @@
     font-family: 'Helvetica', sans-serif;
     border-radius: 50px;
 }
-.boton_1{
+
+.boton_1 {
     border: 1px solid #666666;
     padding: 10px;
     background-color: #666666;
@@ -14,18 +15,21 @@
     font-family: 'Helvetica', sans-serif;
     border-radius: 50px;
 }
-h1{
+
+h1 {
     color: #ffffff;
     text-align: center;
     padding: 20px;
     background: #666666;
 }
+
 h2 {
     text-align: center;
     font-family: 'Lora', serif;
 
 }
-.centrar{
+
+.centrar {
     display: block;
     margin: 10px auto;
 }

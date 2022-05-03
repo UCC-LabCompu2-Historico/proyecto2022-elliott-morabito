@@ -6,6 +6,7 @@
     font-family: 'Helvetica', sans-serif;
     border-radius: 50px;
 }
+
 .boton6 {
     border: 1px solid #004c98;
     padding: 10px;
@@ -14,26 +15,30 @@
     font-family: 'Helvetica', sans-serif;
     border-radius: 50px;
 }
-h1{
+
+h1 {
     color: #ffffff;
     text-align: center;
     padding: 20px;
     background: #004c98;
 }
-h2{
+
+h2 {
     padding: 2em 3px 5px 5px;
     font-family: 'Lora', serif;
 }
 
-p{
+p {
     font-family: 'Lora', serif;
     padding: 10px 10px;
 }
-.centrarimg3{
 
-    display:flex;
+.centrarimg3 {
+
+    display: flex;
     margin: auto;
 }
+
 #pie {
     min-height: 70px;
     text-align: center;
