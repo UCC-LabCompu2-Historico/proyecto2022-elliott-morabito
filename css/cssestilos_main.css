@@ -43,7 +43,7 @@ body {
     font-family: 'Lora', serif;
 }
 
-#OP3 {
+#OP3  {
     font-size: 25px;
     display: table-cell;
     border: 5px solid #ffffff;
@@ -63,7 +63,6 @@ body {
     background: #006666;
     font-family: 'Lora', serif;
 }
-
 a:link, a:visited {
     color: #ffffff;
 }
