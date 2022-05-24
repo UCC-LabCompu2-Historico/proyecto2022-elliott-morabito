@@ -1,13 +1,4 @@
-.boton1 {
-    border: 1px solid #004c98;
-    padding: 10px;
-    background-color: #004c98;
-    color: #ffffff;
-    font-family: 'Helvetica', sans-serif;
-    border-radius: 50px;
-}
-
-.boton2 {
+.boton {
     border: 1px solid #004c98;
     padding: 10px;
     background-color: #004c98;
@@ -38,7 +29,7 @@ h4 {
     font-family: 'Lora', serif;
 }
 
-.centrarimg1 {
+.centrarimg {
     display: flex;
     margin: auto;
 }
