@@ -5,7 +5,7 @@
     background: #000000;
 }
 
-body{
+body {
     background-image: url("../images/fondo/fondo5.jpg");
     background-size: cover;
 }
@@ -50,12 +50,17 @@ body{
 }
 
 #OP4 {
+
     font-size: 25px;
     display: table-cell;
     border: 5px solid #ffffff;
     vertical-align: middle;
     padding: 100px;
     background: #006666;
+}
+
+a:link, a:visited {
+    color: #ffffff;
 }
 
 #pie {
