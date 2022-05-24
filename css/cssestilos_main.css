@@ -3,6 +3,7 @@
     text-align: center;
     padding: 20px;
     background: #000000;
+    font-family: 'Lora', serif;
 }
 
 body {
@@ -29,6 +30,7 @@ body {
     vertical-align: middle;
     padding: 100px;
     background: #660133;
+    font-family: 'Lora', serif;
 }
 
 #OP2 {
@@ -38,6 +40,7 @@ body {
     vertical-align: middle;
     padding: 100px;
     background: #004c98;
+    font-family: 'Lora', serif;
 }
 
 #OP3 {
@@ -47,6 +50,7 @@ body {
     vertical-align: middle;
     padding: 100px;
     background: #666666;
+    font-family: 'Lora', serif;
 }
 
 #OP4 {
@@ -57,6 +61,7 @@ body {
     vertical-align: middle;
     padding: 100px;
     background: #006666;
+    font-family: 'Lora', serif;
 }
 
 a:link, a:visited {
@@ -69,5 +74,5 @@ a:link, a:visited {
     width: 100%;
     position: relative;
     color: #ffffff;
-
+    font-family: 'Lora', serif;
 }
