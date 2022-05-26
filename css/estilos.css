@@ -233,6 +233,7 @@ label {
     padding: 20px;
 
 }
+
 /* subpaginas de Tipos de Camaras */
 .p_tipo_camara {
     font-family: 'Lora', serif;
@@ -246,10 +247,15 @@ h4 {
     color: #ffffff
 }
 
+#ul_tipo_camara {
+    color: white;
+}
+
 .centrarimg {
     display: flex;
     margin: auto;
 }
+
 #pie {
     min-height: 70px;
     text-align: center;
