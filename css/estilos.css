@@ -1,0 +1,259 @@
+/*index*/
+.cabecera {
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    background: #000000;
+    font-family: 'Lora', serif;
+}
+
+.body_index {
+    background-image: url("../images/fondo/fondo5.jpg");
+    background-size: cover;
+}
+
+.contenedor {
+    display: table;
+    width: auto;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.contenidos1, .contenidos2 {
+    display: table-row;
+}
+
+.OP1 {
+    font-size: 25px;
+    display: table-cell;
+    border: 5px solid #ffffff;
+    vertical-align: middle;
+    padding: 100px;
+    background: #660133;
+    font-family: 'Lora', serif;
+
+}
+
+.OP2 {
+    font-size: 25px;
+    display: table-cell;
+    border: 5px solid #ffffff;
+    vertical-align: middle;
+    padding: 100px;
+    background: #004c98;
+    font-family: 'Lora', serif;
+}
+
+.OP3 {
+    font-size: 25px;
+    display: table-cell;
+    border: 5px solid #ffffff;
+    vertical-align: middle;
+    padding: 100px;
+    background: #666666;
+    font-family: 'Lora', serif;
+}
+
+.OP4 {
+
+    font-size: 25px;
+    display: table-cell;
+    border: 5px solid #ffffff;
+    vertical-align: middle;
+    padding: 100px;
+    background: #006666;
+    font-family: 'Lora', serif;
+}
+
+.link_index:hover {
+    font-weight: bold;
+}
+
+.link_index:link, .link_index:visited {
+    color: #ffffff;
+}
+
+/*define tu estilo*/
+.body_define {
+    background-image: url("../images/fondo/fondo8.jpg");
+    background-size: auto;
+}
+
+.boton_define {
+    border: 1px solid #660233;
+    padding: 10px;
+    background-color: #660233;
+    color: #ffffff;
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 50px;
+}
+
+
+.h1_define {
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    background: #660233;
+    font-family: 'Lora', serif;
+}
+
+.h2_define {
+    padding: 2em 3px 5px 5px;
+    font-family: 'Lora', serif;
+    color: #ffffff;
+}
+
+.p_define {
+    text-align: left;
+    font-family: 'Lora', serif;
+    padding: 10px 10px;
+    color: #ffffff;
+
+}
+
+/* Instagram */
+
+.body_insta {
+    background-image: url("../images/fondo/62431-camara.jpg");
+    background-size: 1920px 1080px;
+}
+
+.boton_insta {
+    border: 1px solid #666666;
+    padding: 10px;
+    background-color: #666666;
+    color: #ffffff;
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 50px;
+}
+
+.h1_insta {
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    background: #666666;
+    font-family: 'Lora', serif;
+}
+
+.h2_insta {
+    text-align: center;
+    font-family: 'Lora', serif;
+
+}
+
+.centrar {
+    display: block;
+    margin: 10px auto;
+}
+
+/* Lightroom*/
+
+.body_presets {
+    background-image: url("../images/fondo/62357-camara.jpg");
+    background-size: 1920px 1080px;
+}
+
+.boton_presets {
+    border: 1px solid #006666;
+    padding: 10px;
+    background-color: #006666;
+    color: #ffffff;
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 50px;
+}
+
+.h1_presets {
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+    background: #006666;
+    font-family: 'Lora', serif;
+}
+
+.h2_presets {
+    text-align: center;
+    font-family: 'Lora', serif;
+    color: #ffffff;
+}
+
+.p_presets {
+    text-align: center;
+    font-family: 'Lora', serif;
+    padding: 10px 10px;
+    color: #ffffff;
+
+}
+
+.centrar_presets {
+    display: block;
+    margin: 10px auto;
+}
+
+/* Tipos de camara*/
+
+.body_tipo_camara {
+    background-image: url("../images/fondo/fondo.jpg");
+    background-size: cover;
+}
+
+.boton_tipo_camara {
+    border: 1px solid #004c98;
+    padding: 10px;
+    background-color: #004c98;
+    color: #ffffff;
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 50px;
+}
+
+.h1_tipo_camara {
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    background-color: #004c98;
+    font-family: 'Lora', serif;
+}
+
+.h2_tipo_camara {
+    color: #ffffff;
+    padding: 2em 3px 5px 5px;
+    font-family: 'Lora', serif;
+}
+
+label {
+    font-family: 'Lora', serif;
+    color: #ffffff;
+}
+
+#form1 {
+    padding: 20px;
+}
+
+#button_buscar {
+    padding: 20px;
+
+}
+/* subpaginas de Tipos de Camaras */
+.p_tipo_camara {
+    font-family: 'Lora', serif;
+    padding: 10px 10px;
+    color: #ffffff
+}
+
+h4 {
+    padding: 1em 3px 5px 5px;
+    font-family: 'Lora', serif;
+    color: #ffffff
+}
+
+.centrarimg {
+    display: flex;
+    margin: auto;
+}
+#pie {
+    min-height: 70px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    color: #ffffff;
+}
