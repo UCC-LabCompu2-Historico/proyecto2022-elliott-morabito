@@ -26,11 +26,11 @@
     <canvas id="lienzo1" width="250" height="200">Su navegador no soporta canvas :( </canvas>
 
     <h2><b>¿Que tipo de camara debo comprar?</b></h2>
+    <form class="formulario" name="formulario">
     <label for="camaras">Encuentra la camara que mejor se adapte al tipo de fotografia que se busca y que sea mas
         acorde tu estilo.</label><br><br>
 
-    <select id="camaras">
-        <option value="seleccion" id="seleccion">Seleccione un estilo</option>
+    <select name="Camaras" id="camaras">
         <option value="retrato" id="retrato">Fotografia de Retrato</option>
         <option value="publicitaria" id="publicitaria">Fotografia Publicitaria</option>
         <option value="arquitectura" id="arquitectura">Fotografia de Arquitectura</option>
@@ -41,9 +41,10 @@
         <option value="gastronomia" id="gastronomia">Fotografia de Gastronomia</option>
         <option value="byn" id="byn">Fotografia B&N</option>
     </select>
+    </form>
     <br>
     <div id="button_buscar">
-        <button onclick="cargar_pagina(this.id)" type="button">BUSCAR<br></button>
+        <button onclick="cargar_pagina()" type="button">BUSCAR<br></button>
     </div>
 
 </section>
