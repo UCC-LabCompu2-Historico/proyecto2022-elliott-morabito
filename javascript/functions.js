@@ -1,3 +1,8 @@
+/**
+ * carga la pagina correcta según la que necesite el usario
+ * @method Nombre de la función
+ * @const {string} opcion - almacena el nombre del estilo de fotografia que le gusta al usuario
+ */
 function cargar_pagina() {
     const opcion = document.getElementById('camaras').value;
     switch (opcion) {
@@ -33,6 +38,7 @@ function cargar_pagina() {
             break;
     }
 }
+/*
 var canvas1 = document.getElementById("lienzo1");
 if (canvas1 && canvas1.getContext) {
     var ctx1 = canvas1.getContext("2d");
@@ -45,3 +51,4 @@ if (canvas1 && canvas1.getContext) {
         ctx1.stroke();
     }
 }
+*/
