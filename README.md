@@ -1,4 +1,4 @@
-# proyecto2022. ELLIOTT  VICTORIA & MORABITO.
+# proyecto2022. ELLIOTT VICTORIA & MORABITO LEONARDO.
 
 ## Título del proyecto: “Capture Web Photos”
 
@@ -17,8 +17,9 @@
 Tecnologías usadas: 
 - HTML 
 - CSS
+- JAVASCRIPT
 - WEBSTORM 
-- MARKDOWN.
+- MARKDOWN
 
 Estructura de Proyecto Lab de Compu II - 2022
 
@@ -77,14 +78,14 @@ Estructura de Proyecto Lab de Compu II - 2022
 ## Requisitos del Segundo Parcial
 
 ### Sobre el proyecto general
-- [ ] Todas las correcciones y mejoras solicitadas durante el primer parcial deben estar corregidas.
+- [x] Todas las correcciones y mejoras solicitadas durante el primer parcial deben estar corregidas.
 - [ ] No debe haber errores presentes en el código (realizar Code > Inspect Code para verificar que no haya errores)
 - [ ] No debe haber errores JavaScripts presentes. (ver con F12 si hay errores)
 
 ### Sobre la funcionalidad JavaScript
 Se debe agregar funcionalidad Js a la página HTML+CSS desarrollada
-- [ ] Una función que compruebe si los valores ingresados son correctos, y si no lo son, que le indique al usuario por un alert, y que blanquee el contenido del campo.
-- [ ] Una función que calcule algo en base a los valores ingresados por el usuario en los inputs.
+- [x] Una función que compruebe si los valores ingresados son correctos, y si no lo son, que le indique al usuario por un alert, y que blanquee el contenido del campo.
+- [x] Una función que calcule algo en base a los valores ingresados por el usuario en los inputs.
 - [ ] Una función que realice un dibujo sobre un canvas (debe ser representativo y acorde a los valores ingreados).
 
 ### Sobre la documentación
