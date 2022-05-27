@@ -38,17 +38,16 @@ function cargar_pagina() {
             break;
     }
 }
-/*
-var canvas1 = document.getElementById("lienzo1");
-if (canvas1 && canvas1.getContext) {
-    var ctx1 = canvas1.getContext("2d");
-    if (ctx1) {
-        ctx1.lineWidth = 2;
-        ctx1.strokeStyle = "#00f";
-        ctx1.fillStyle = "#ff0";
-        ctx1.rect(60, 60, 150, 100);
-        ctx1.fill();
-        ctx1.stroke();
-    }
+
+function dibujar(){
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+
+//rectangulo
+    var y = canvas.height;
+    var margen = 4.5;
+    ctx.fillStyle = "#000000";
+    ctx.fillRect(20, 20, 150, 150);
+    ctx.clearRect(40, 40, 110, 110);
+    ctx.strokeRect(55, 55, 80, 80);
 }
-*/
