@@ -7,7 +7,7 @@ function cargar_pagina() {
     const opcion = document.getElementById('camaras').value;
     switch (opcion) {
         case "seleccion":
-            alert("Sleccione una opción");
+            alert("Seleccione una opción");
             break;
         case "retrato":
             window.open('tipo_camara_1.html');
