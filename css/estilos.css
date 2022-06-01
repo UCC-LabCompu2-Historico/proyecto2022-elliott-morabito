@@ -6,12 +6,32 @@
     background: #000000;
     font-family: 'Lora', serif;
 }
+.mostrarInsta{
+    background-color: antiquewhite;
+    float: right;
+    display: table;
 
+}
+.p_insta{
+
+}
+#vikiInsta{
+
+}
+#leoInsta{
+
+}
 .body_index {
     background-image: url("../images/fondo/fondo5.jpg");
     background-size: cover;
 }
-
+.canvas{
+    margin: auto;
+    float:right;
+    border:1px solid #004c97;
+    border-radius: 50px;
+    background: rgb(0, 76, 151);
+}
 .contenedor {
     display: table;
     width: auto;
@@ -261,9 +281,4 @@ h4 {
     width: 100%;
     position: relative;
     color: #ffffff;
-}
-
-.canvas{
-    border:1px solid #ffffff;
-    background: rgb(245, 238, 238);
 }

@@ -40,14 +40,18 @@ function cargar_pagina() {
 }
 
 function dibujar(){
-    var canvas = document.getElementById("myCanvas");
-    var ctx = canvas.getContext("2d");
+    let canvas = document.getElementById("myCanvas");
+    let ctx = canvas.getContext("2d");
 
-//rectangulo
-    var y = canvas.height;
-    var margen = 4.5;
-    ctx.fillStyle = "#000000";
-    ctx.fillRect(20, 20, 150, 150);
-    ctx.clearRect(40, 40, 110, 110);
-    ctx.strokeRect(55, 55, 80, 80);
+//cuadrados
+    ctx.fillStyle = "#ffffff";
+    ctx.fillRect(24, 20, 150, 150);
+    ctx.clearRect(42.9, 40, 110, 110);
+    ctx.fillRect(57, 55, 80, 80);
+
+    //circulo
+    ctx.arc(96, 95, 25, 0, 2*Math.PI);
+    ctx.stroke();
+    ctx.fillStyle = "#004c96";
+    ctx.fill();
 }
