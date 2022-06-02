@@ -1,20 +1,21 @@
 /**
+ * //comentar
+ *
+ */
+function mostrar(){
+        var info = document.getElementById("ocultar");
+        if (info.style.display === "none") {
+            info.style.display = "block";
+        } else {
+            info.style.display = "none";
+        }
+
+}
+/**
  * carga la pagina correcta según la que necesite el usario
  * @method Nombre de la función
  * @const {string} opcion - almacena el nombre del estilo de fotografia que le gusta al usuario
  */
-function mostrar(id){
-
-        if("ocultar")
-        {
-            document.getElementById("ocultar").style.display="none";
-        }
-        else
-        {
-            document.getElementById("ocultar").style.display="table";
-        }
-}
-
 function cargar_pagina() {
     const opcion = document.getElementById('camaras').value;
     switch (opcion) {

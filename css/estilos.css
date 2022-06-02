@@ -15,13 +15,26 @@
     justify-content: center;
     margin: 5% auto;
 }
-.insta{
+
+#insta0{
 
 }
-.mostrarInsta{
+.canvas{
+    margin: auto;
+    border:1px solid #004c97;
+    border-radius: 50px;
+    background: rgb(0, 76, 151);
+}
+#foto_insta{
+
+}
+#insta1{
+
+}
+#ocultar{
     background-color: antiquewhite;
     float: right;
-    display: none;
+    display: block;
 
 }
 .p_insta {
@@ -31,13 +44,7 @@
     background-image: url("../images/fondo/fondo5.jpg");
     background-size: cover;
 }
-.canvas{
-    margin: auto;
-    float:right;
-    border:1px solid #004c97;
-    border-radius: 50px;
-    background: rgb(0, 76, 151);
-}
+
 .contenedor {
     display: table;
     width: 75%;
@@ -255,6 +262,7 @@ label {
 
 #button_buscar {
     padding: 20px;
+    b
 
 }
 
