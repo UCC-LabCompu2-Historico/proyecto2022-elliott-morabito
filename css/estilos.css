@@ -15,24 +15,14 @@
     justify-content: center;
     margin: 5% auto;
 }
-
-#insta0{
-    margin: 10px
-}
-
 .canvas{
     margin: auto;
-    border-radius: 10px;
+    border-radius: 50px;
     background-image: url("../images/icon/insta.png");
-    background-size: 100px;
+    background-size: 200px;
 }
-.linkInsta {
-    margin: 10px auto;
-    border-radius: 10px;
-}
-
-#ocultar{
-    background-color: antiquewhite;
+#ocultar {
+    background-color: #ffffff;
     max-width: 140px;
     min-width: 100px;
     display: none;
@@ -41,9 +31,16 @@
     align-items: center;
     text-align: center;
 }
-
+.linkInsta {
+    margin: 10px auto;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 500ms ease;
+}
 .p_insta {
     margin: 10px;
+    font-family: 'Lora', serif;
+    font-weight: bold;
 }
 
 .body_index {

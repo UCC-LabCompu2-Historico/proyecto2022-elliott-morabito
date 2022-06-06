@@ -17,7 +17,7 @@ function cambiarCanvas() {
     canvas.width=canvas.width;
     aux.src = "images/icon/insta.png";
     aux.onload = function () {
-        context.drawImage(aux, 0, 0, 100, 100);
+        context.drawImage(aux, 0, 0, 200, 200);
     }
 }
 function cambiarViki() {
@@ -25,18 +25,20 @@ function cambiarViki() {
     var canvas = document.getElementById("myCanvas");
     var context = canvas.getContext("2d");
     var aux = new Image();
-    aux.src = "images/camaras/arquitectura.png";
+    canvas.width=canvas.width;
+    aux.src = "images/icon/viki_cuenta.jpg";
     aux.onload = function () {
-        context.drawImage(aux, 0, 0, 100, 100);
+        context.drawImage(aux, 0, 0, 200, 200);
     }
 }
 function cambiarLeo() {
     var canvas = document.getElementById("myCanvas");
     var context = canvas.getContext("2d");
     var aux = new Image();
-    aux.src = "images/camaras/B&N.png";
+    canvas.width=canvas.width;
+    aux.src = "images/icon/leo_cuenta.jpg";
     aux.onload = function () {
-        context.drawImage(aux, 0, 0, 100, 100);
+        context.drawImage(aux, 0, 0, 200, 200);
     }
 }
 
