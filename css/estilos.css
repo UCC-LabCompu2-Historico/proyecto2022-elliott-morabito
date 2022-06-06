@@ -17,93 +17,94 @@
 }
 
 #insta0{
-
+    margin: 10px
 }
+
 .canvas{
     margin: auto;
-    border:1px solid #004c97;
-    border-radius: 50px;
-    background: rgb(0, 76, 151);
+    border-radius: 10px;
+    background-image: url("../images/icon/insta.png");
+    background-size: 100px;
 }
-#foto_insta{
+.linkInsta {
+    margin: 10px auto;
+    border-radius: 10px;
+}
 
-}
-#insta1{
-
-}
 #ocultar{
     background-color: antiquewhite;
-    float: right;
-    display: block;
-
-}
-.p_insta {
+    max-width: 140px;
+    min-width: 100px;
+    display: none;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
+
+.p_insta {
+    margin: 10px;
+}
+
 .body_index {
     background-image: url("../images/fondo/fondo5.jpg");
     background-size: cover;
 }
 
 .contenedor {
-    display: table;
+    display: grid;
     width: 75%;
-    text-align: center;
-    padding: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 }
 
-.contenidos1, .contenidos2 {
-    display: table-row;
-}
-
-.OP1 {
+.OP {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 25px;
-    display: table-cell;
     border: 5px solid #ffffff;
-    vertical-align: middle;
-    padding: 100px;
+    border-radius: 20px;
+    padding: 70px;
+    margin: 10px;
+    font-family: 'Lora', serif;
+}
+
+.OP1{
     background: #660133;
-    font-family: 'Lora', serif;
-
 }
 
-.OP2 {
-    font-size: 25px;
-    display: table-cell;
-    border: 5px solid #ffffff;
-    vertical-align: middle;
-    padding: 100px;
+.OP2{
     background: #004c98;
-    font-family: 'Lora', serif;
 }
 
-.OP3 {
-    font-size: 25px;
-    display: table-cell;
-    border: 5px solid #ffffff;
-    vertical-align: middle;
-    padding: 100px;
+.OP3{
     background: #666666;
-    font-family: 'Lora', serif;
 }
 
-.OP4 {
-
-    font-size: 25px;
-    display: table-cell;
-    border: 5px solid #ffffff;
-    vertical-align: middle;
-    padding: 100px;
+.OP4{
     background: #006666;
-    font-family: 'Lora', serif;
+}
+
+.linkText {
+    text-align: center;
+}
+
+.link_index{
+    text-decoration: none;
+    transition: all 500ms ease;
 }
 
 .link_index:hover {
-    font-weight: bold;
+    text-shadow: 0 0 15px black;
 }
 
 .link_index:link, .link_index:visited {
     color: #ffffff;
+}
+
+.link_index:link:hover, .link_index:visited:hover {
+    color: #ffdebb;
 }
 
 /*define tu estilo*/
@@ -262,7 +263,6 @@ label {
 
 #button_buscar {
     padding: 20px;
-    b
 
 }
 

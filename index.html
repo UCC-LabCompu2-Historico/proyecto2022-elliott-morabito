@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
     <script src="javascript/functions.js" type="text/javascript"></script>
 </head>
-<body class="body_index" onload="dibujar()">
+<body class="body_index">
 <header>
     <div class="cabecera">
         <h1>CAPTURE WEB PHOTOS</h1>
@@ -20,31 +20,39 @@
 <section>
     <div class="menu">
         <div class="contenedor">
-            <div class="contenidos1">
-                <div class="OP1"><a class="link_index" href="define_estilo.html">DEFINE TU ESTILO<br/>DE FOTOGRAFIA</a>
+            <div class="OP OP1">
+                <div class="linkText">
+                    <a class="link_index" href="define_estilo.html">DEFINE TU ESTILO<br/>DE FOTOGRAFIA</a>
                 </div>
-                <div class="OP2"><a class="link_index" href="tipo_camara.html">TIPOS DE CAMARA,<br>¿QUE CAMARA DEBO
-                    COMPRAR?</a></div>
             </div>
-            <div class="contenidos2">
-                <div class="OP3"><a class="link_index" href="instagram.html">FOTOGRAFOS DE PREFERENCIA<br/>EN INSTAGRAM</a>
+
+            <div class="OP OP2">
+                <div class="linkText">
+                    <a class="link_index" href="tipo_camara.html">TIPOS DE CAMARA,<br>¿QUE CAMARA DEBO COMPRAR?</a>
                 </div>
-                <div class="OP4"><a class="link_index" href="presets.html">PRESETS DE LIGHTROOM<br/>QUE MARCAN
-                    TENDENCIA</a></div>
+            </div>
+
+            <div class="OP OP3">
+                <div class="linkText">
+                    <a class="link_index" href="instagram.html">FOTOGRAFOS DE PREFERENCIA<br/>EN INSTAGRAM</a>
+                </div>
+            </div>
+
+            <div class="OP OP4">
+                <div class="linkText">
+                    <a class="link_index" href="presets.html">PRESETS DE LIGHTROOM<br/>QUE MARCAN TENDENCIA</a>
+                </div>
             </div>
         </div>
         <div id="insta0">
-            <canvas id="myCanvas" class="canvas" width="200px" height="200px"></canvas>
-            <div id="insta1">
-                <img class="centrar" src="images/icon/instagram_PNG9-1655574055.png" alt="logo instagram" width="100" height="100" onclick="mostrar()">
-                <div id="ocultar" class="centrar">
-                    <p class="p_insta"><a href="https://www.instagram.com/miche.ve/">Victoria<br>Elliott</a></p>
-                    <p class="p_insta"><a href="https://www.instagram.com/leo_morabito_2002/">Leonardo<br>Morabito</a></p>
-                </div>
+            <canvas id="myCanvas" class="canvas" width="100px" height="100px" onclick="mostrar()" onmouseover="cambiarCanvas()"></canvas>
+            <div id="ocultar" class="linkInsta">
+                <p class="p_insta"><a href="https://www.instagram.com/miche.ve/" target="_blank" onmouseover="cambiarViki()">Victoria<br>Elliott</a></p>
+                <p class="p_insta"><a href="https://www.instagram.com/leo_morabito_2002/" target="_blank" onmouseover="cambiarLeo()">Leonardo<br>Morabito</a>
+                </p>
             </div>
         </div>
     </div>
-
 </section>
 </body>
 <footer>

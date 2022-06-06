@@ -2,15 +2,44 @@
  * //comentar
  *
  */
-function mostrar(){
-        var info = document.getElementById("ocultar");
-        if (info.style.display === "none") {
-            info.style.display = "block";
-        } else {
-            info.style.display = "none";
-        }
-
+function mostrar() {
+    let info = document.getElementById("ocultar");
+    if (info.style.display === "block") {
+        info.style.display = "none";
+    } else {
+        info.style.display = "block";
+    }
 }
+function cambiarCanvas() {
+    var canvas = document.getElementById("myCanvas");
+    var context = canvas.getContext("2d");
+    var aux = new Image();
+    canvas.width=canvas.width;
+    aux.src = "images/icon/insta.png";
+    aux.onload = function () {
+        context.drawImage(aux, 0, 0, 100, 100);
+    }
+}
+function cambiarViki() {
+
+    var canvas = document.getElementById("myCanvas");
+    var context = canvas.getContext("2d");
+    var aux = new Image();
+    aux.src = "images/camaras/arquitectura.png";
+    aux.onload = function () {
+        context.drawImage(aux, 0, 0, 100, 100);
+    }
+}
+function cambiarLeo() {
+    var canvas = document.getElementById("myCanvas");
+    var context = canvas.getContext("2d");
+    var aux = new Image();
+    aux.src = "images/camaras/B&N.png";
+    aux.onload = function () {
+        context.drawImage(aux, 0, 0, 100, 100);
+    }
+}
+
 /**
  * carga la pagina correcta según la que necesite el usario
  * @method Nombre de la función
@@ -50,21 +79,4 @@ function cargar_pagina() {
             window.open('tipo_camara_9.html');
             break;
     }
-}
-
-function dibujar(){
-    let canvas = document.getElementById("myCanvas");
-    let ctx = canvas.getContext("2d");
-
-//cuadrados
-    ctx.fillStyle = "#ffffff";
-    ctx.fillRect(24, 20, 150, 150);
-    ctx.clearRect(42.9, 40, 110, 110);
-    ctx.fillRect(57, 55, 80, 80);
-
-    //circulo
-    ctx.arc(96, 95, 25, 0, 2*Math.PI);
-    ctx.stroke();
-    ctx.fillStyle = "#004c96";
-    ctx.fill();
 }
