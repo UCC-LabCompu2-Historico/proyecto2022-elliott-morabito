@@ -1,6 +1,20 @@
 /**
- * //comentar
- *
+ * Se ejecuta la funcion al sacar el mouse de los links, cambiando la imagaen del canvas
+ * @method cambiarCanvas
+ */
+function cambiarCanvas() {
+    var canvas = document.getElementById("myCanvas");
+    var context = canvas.getContext("2d");
+    var aux = new Image();
+    canvas.width = canvas.width;
+    aux.src = "images/icon/insta.png";
+    aux.onload = function () {
+        context.drawImage(aux, 0, 0, 200, 200);
+    }
+}
+/**
+ * Muestra u oculta un div con los links a los perfiles de instagram de los autores
+ *@method mostrar
  */
 function mostrar() {
     let info = document.getElementById("ocultar");
@@ -10,16 +24,10 @@ function mostrar() {
         info.style.display = "block";
     }
 }
-function cambiarCanvas() {
-    var canvas = document.getElementById("myCanvas");
-    var context = canvas.getContext("2d");
-    var aux = new Image();
-    canvas.width=canvas.width;
-    aux.src = "images/icon/insta.png";
-    aux.onload = function () {
-        context.drawImage(aux, 0, 0, 200, 200);
-    }
-}
+/**
+ * Se ejecuta la funcion al posar el mouse sobre el link Victoria Elliott
+ * @method cambiarViki
+ */
 function cambiarViki() {
 
     var canvas = document.getElementById("myCanvas");
@@ -31,6 +39,10 @@ function cambiarViki() {
         context.drawImage(aux, 0, 0, 200, 200);
     }
 }
+/**
+ * Se ejecuta la funcion al posar el mouse sobre el link Leonardo Morabito
+ * @method cambiarLeo
+ */
 function cambiarLeo() {
     var canvas = document.getElementById("myCanvas");
     var context = canvas.getContext("2d");
@@ -41,11 +53,9 @@ function cambiarLeo() {
         context.drawImage(aux, 0, 0, 200, 200);
     }
 }
-
 /**
- * carga la pagina correcta según la que necesite el usario
- * @method Nombre de la función
- * @const {string} opcion - almacena el nombre del estilo de fotografia que le gusta al usuario
+ * carga la pagina correcta según la elegida en el select
+ * @method cargar_pagina
  */
 function cargar_pagina() {
     const opcion = document.getElementById('camaras').value;
