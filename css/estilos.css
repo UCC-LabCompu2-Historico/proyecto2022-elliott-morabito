@@ -15,7 +15,14 @@
     justify-content: center;
     margin: 5% auto;
 }
+#canvas{
+    margin: auto;
+    border-radius: 50px;
+    background-image: url("../images/icon/insta.png");
+    background-size: 200px;
+}
 .canvas{
+    display: none;
     margin: auto;
     border-radius: 50px;
     background-image: url("../images/icon/insta.png");
