@@ -64,31 +64,31 @@ function cargar_pagina() {
             alert("Seleccione una opción");
             break;
         case "retrato":
-            window.open('tipo_camara_1.html');
+            window.open('tipo_camara_1.html', "_self");
             break;
         case "publicitaria" :
-            window.open('tipo_camara_2.html');
+            window.open('tipo_camara_2.html', "_self");
             break;
         case "arquitectura":
-            window.open('tipo_camara_3.html');
+            window.open('tipo_camara_3.html', "_self");
             break;
         case "paisaje":
-            window.open('tipo_camara_4.html');
+            window.open('tipo_camara_4.html', "_self");
             break;
         case "deportes":
-            window.open('tipo_camara_5.html');
+            window.open('tipo_camara_5.html', "_self");
             break;
         case "macro":
-            window.open('tipo_camara_6.html');
+            window.open('tipo_camara_6.html', "_self");
             break;
         case "viajes":
-            window.open('tipo_camara_7.html');
+            window.open('tipo_camara_7.html', "_self");
             break;
         case "gastronomia":
-            window.open('tipo_camara_8.html');
+            window.open('tipo_camara_8.html', "_self");
             break;
         case "byn":
-            window.open('tipo_camara_9.html');
+            window.open('tipo_camara_9.html', "_self");
             break;
     }
 }
