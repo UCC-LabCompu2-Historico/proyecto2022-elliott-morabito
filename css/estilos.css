@@ -286,9 +286,20 @@ h4 {
 }
 
 #pie {
+
     min-height: 70px;
     text-align: center;
-    width: 100%;
+    width: 100em;
     position: relative;
+    color: #ffffff;
+
+}
+#pie_tipo_camara{
+
+    min-height: 70px;
+    text-align: center;
+    width: 100em;
+    position: absolute;
+    bottom: 0;
     color: #ffffff;
 }

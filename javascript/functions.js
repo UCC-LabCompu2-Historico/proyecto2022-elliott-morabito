@@ -12,6 +12,7 @@ function cambiarCanvas() {
         context.drawImage(aux, 0, 0, 200, 200);
     }
 }
+
 /**
  * Muestra u oculta un div con los links a los perfiles de instagram de los autores
  *@method mostrar
@@ -24,6 +25,7 @@ function mostrar() {
         info.style.display = "block";
     }
 }
+
 /**
  * Se ejecuta la funcion al posar el mouse sobre el link Victoria Elliott
  * @method cambiarViki
@@ -33,12 +35,13 @@ function cambiarViki() {
     var canvas = document.getElementById("myCanvas");
     var context = canvas.getContext("2d");
     var aux = new Image();
-    canvas.width=canvas.width;
+    canvas.width = canvas.width;
     aux.src = "images/icon/viki_cuenta.jpg";
     aux.onload = function () {
         context.drawImage(aux, 0, 0, 200, 200);
     }
 }
+
 /**
  * Se ejecuta la funcion al posar el mouse sobre el link Leonardo Morabito
  * @method cambiarLeo
@@ -47,12 +50,13 @@ function cambiarLeo() {
     var canvas = document.getElementById("myCanvas");
     var context = canvas.getContext("2d");
     var aux = new Image();
-    canvas.width=canvas.width;
+    canvas.width = canvas.width;
     aux.src = "images/icon/leo_cuenta.jpg";
     aux.onload = function () {
         context.drawImage(aux, 0, 0, 200, 200);
     }
 }
+
 /**
  * carga la pagina correcta según la elegida en el select
  * @method cargar_pagina
