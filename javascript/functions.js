@@ -12,13 +12,14 @@ function cambiarCanvas() {
         context.drawImage(aux, 0, 0, 300, 300);
     }
 }
-//Canvas sistemas solar
+
+//Canvas animacion
 
 const sun = new Image();
 const moon = new Image();
 const earth = new Image();
 function init() {
-    sun.src = "images/canvas/sun.jpg";
+    sun.src = "images/canvas/sun.png";
     moon.src = 'images/canvas/moon.png';
     earth.src = 'images/canvas/earth.png';
     window.requestAnimationFrame(draw);
