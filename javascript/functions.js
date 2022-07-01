@@ -18,7 +18,7 @@ const sun = new Image();
 const moon = new Image();
 const earth = new Image();
 function init() {
-    sun.src = "images/canvas/sun.png";
+    sun.src = "images/canvas/sun.jpn";
     moon.src = 'images/canvas/moon.png';
     earth.src = 'images/canvas/earth.png';
     window.requestAnimationFrame(draw);
