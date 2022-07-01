@@ -9,7 +9,7 @@ function cambiarCanvas() {
     canvas.width = canvas.width;
     aux.src = "images/icon/insta.png";
     aux.onload = function () {
-        context.drawImage(aux, 0, 0, 200, 200);
+        context.drawImage(aux, 0, 0, 300, 300);
     }
 }
 //Canvas sistemas solar
@@ -26,7 +26,6 @@ function init() {
 
 function draw() {
     const ctx = document.getElementById('canvas').getContext('2d');
-    canvas.width = canvas.width;
     ctx.globalCompositeOperation = 'destination-over';
     ctx.clearRect(0, 0, 300, 300); // clear canvas
 
@@ -39,7 +38,6 @@ function draw() {
     const time = new Date();
     ctx.rotate(((2 * Math.PI) / 60) * time.getSeconds() + ((2 * Math.PI) / 60000) * time.getMilliseconds());
     ctx.translate(105, 0);
-    ctx.fillRect(0, -12, 40, 24); // Shadow
     ctx.drawImage(earth, -12, -12);
 
     // Moon
@@ -71,6 +69,7 @@ function mostrar() {
     if (info.style.display === "block") {
         info.style.display = "none";
     } else {
+
         info.style.display = "block";
     }
 }
