@@ -1,41 +1,87 @@
-var fondo = new Image();
-var brillo = new Image();
-function init() {
-    fondo.src ="images/canvas/fondo.png";
-    brillo.src = "images/canvas/brillo.png";
-    window.requestAnimationFrame(draw);
+/**
+ * muestra una imagen en el canvas y la desplaza hacia la derecha
+ * @method draw
+ */
+
+var img = new Image();
+img.src = 'images/fondo/horizonte.jpg';
+var CanvasXSize = 800;
+var CanvasYSize = 200;
+var speed = 10;
+var scale = 1;
+var y = -4.5;
+
+
+var dx = 0.75;
+var imgW;
+var imgH;
+var x = 0;
+var clearX;
+var clearY;
+var ctx;
+
+img.onload = function() {
+    imgW = img.width * scale;
+    imgH = img.height * scale;
+
+    // si la imagen más grande que canvas
+    if (imgW > CanvasXSize) {
+
+        x = CanvasXSize - imgW;
+    }
+    if (imgW > CanvasXSize) {
+        // si el ancho de imagen más grande que canvas
+        clearX = imgW;
+    } else {
+        clearX = CanvasXSize;
+    }
+    // si la altura de la imagen más grande que canvas
+    if (imgH > CanvasYSize) {
+
+        clearY = imgH;
+    } else {
+        clearY = CanvasYSize;
+    }
+
+    // establecer frecuencia de actualización
+    return setInterval(draw, speed);
 }
+
 function draw() {
-    var ctx = document.getElementById('canvas').getContext('2d');
+    ctx = document.getElementById('canvas').getContext('2d');
+    ctx.clearRect(0, 0, clearX, clearY); // clear the canvas
 
-    ctx.globalCompositeOperation = 'destination-over';
-    ctx.clearRect(0,0,300,300); // limpiar canvas
+    // si la imagen es <= tamaño de Canvas
+    if (imgW <= CanvasXSize) {
+        // reiniciar, comenzar desde el principio
+        if (x > CanvasXSize) {
+            x = -imgW + x;
+        }
+        // dibujar image1 adicional
+        if (x > 0) {
+            ctx.drawImage(img, -imgW + x, y, imgW, imgH);
+        }
+        // dibujar image2 adicional
+        if (x - imgW > 0) {
+            ctx.drawImage(img, -imgW * 2 + x, y, imgW, imgH);
+        }
+    }
 
-    ctx.fillStyle = "#00000066";
-    ctx.strokeStyle = "#0099FF66";
-    ctx.save();
-    ctx.translate(150,150);
-
-    // brillo
-    var time = new Date();
-    ctx.rotate( ((2*Math.PI)/60)*time.getSeconds() + ((2*Math.PI)/60000)*time.getMilliseconds() );
-    ctx.translate(105,0);
-    ctx.fillRect(0,-12,50,24); // Sombra
-    ctx.drawImage(brillo,-12,-12);
-    ctx.save();
-
-    ctx.restore();
-    ctx.restore();
-
-    ctx.beginPath();
-    ctx.arc(150,150,105,0,Math.PI*2,false); // Órbita briullo
-    ctx.stroke();
-
-    ctx.drawImage(fondo,0,0,300,300);
-
-    window.requestAnimationFrame(draw);
+    // la imagen es > tamaño de Canvas
+    else {
+        // reiniciar, comenzar desde el principio
+        if (x > (CanvasXSize)) {
+            x = CanvasXSize - imgW;
+        }
+        // dibujar imagen adicional
+        if (x > (CanvasXSize-imgW)) {
+            ctx.drawImage(img, x - imgW + 1, y, imgW, imgH);
+        }
+    }
+    ctx.drawImage(img, x, y,imgW, imgH);
+    // cantidad para moverse
+    x += dx;
 }
-init();
 
 /**
  * Muestra u oculta un div con los links a los perfiles de instagram de los autores
