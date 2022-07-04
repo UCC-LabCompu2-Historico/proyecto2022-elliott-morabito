@@ -5,8 +5,8 @@
 
 var img = new Image();
 img.src = 'images/canvas/perfiles_3.jpg';
-var CanvasXSize = 800;
-var CanvasYSize = 200;
+var CanvasXSize = 300;
+var CanvasYSize = 300;
 var speed = 10;
 var scale = 1;
 var y = -4.5;
@@ -30,7 +30,7 @@ img.onload = function() {
         x = CanvasXSize - imgW;
     }
     if (imgW > CanvasXSize) {
-        // si el ancho de imagen más grande que canvas
+    // si el ancho de imagen más grande que canvas
         clearX = imgW;
     } else {
         clearX = CanvasXSize;
@@ -49,11 +49,11 @@ img.onload = function() {
 
 function draw() {
     ctx = document.getElementById('canvas').getContext('2d');
-    ctx.clearRect(0, 0, clearX, clearY); // clear the canvas
+    canvas.width = canvas.width;
 
     // si la imagen es <= tamaño de Canvas
     if (imgW <= CanvasXSize) {
-        // reiniciar, comenzar desde el principio
+        //comenzar desde el principio
         if (x > CanvasXSize) {
             x = -imgW + x;
         }
@@ -61,15 +61,11 @@ function draw() {
         if (x > 0) {
             ctx.drawImage(img, -imgW + x, y, imgW, imgH);
         }
-        // dibujar image2 adicional
-        if (x - imgW > 0) {
-            ctx.drawImage(img, -imgW * 2 + x, y, imgW, imgH);
-        }
     }
 
     // la imagen es > tamaño de Canvas
     else {
-        // reiniciar, comenzar desde el principio
+        // comenzar desde el principio
         if (x > (CanvasXSize)) {
             x = CanvasXSize - imgW;
         }

@@ -26,6 +26,7 @@
     display: flex;
 
 }
+/*canvas*/
 #ocultar {
     background-color: #ffffff;
     max-width: 140px;
@@ -280,9 +281,9 @@ h4 {
     font-family: 'Lora', serif;
     color: #ffffff
 }
-
+/* viajes*/
 #ul_tipo_camara {
-    color: white;
+    color: #ffffff;
 }
 
 .centrarimg {
