@@ -4,7 +4,7 @@
  */
 
 var img = new Image();
-img.src = 'images/fondo/horizonte.jpg';
+img.src = 'images/canvas/perfiles_3.jpg';
 var CanvasXSize = 800;
 var CanvasYSize = 200;
 var speed = 10;
