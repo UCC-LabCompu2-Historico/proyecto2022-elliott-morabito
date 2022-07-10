@@ -6,7 +6,7 @@
 - Victoria Elliott 2102175@ucc.edu.ar
 - Leonardo Morabito 2100781@ucc.edu.ar
 
-link: [github pages](https://ucc-labcompu2.github.io/proyecto2022-elliott-morabito/index.html)
+link: [github pages](https://ucc-labcompu2-Historico.github.io/proyecto2022-elliott-morabito/index.html)
 
 <u>Contenido:</u> 
 - Información para principiantes que inician en la fotografía.
